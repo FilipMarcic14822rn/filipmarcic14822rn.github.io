@@ -1,0 +1,71 @@
+@font-face {
+  font-family: Inter;
+  src: url('assets/fonts/Inter-Regular.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('assets/fonts/Inter-Bold.ttf');
+  font-weight: bold;
+}
+
+:root {
+  --bs-primary-color: #F5CB5C !important;
+  --bs-primary-color-dark: #2A2B2E !important;
+
+  --bs-secondary-color: #6E7271 !important;
+
+  --bs-body-color-light: #E2D0BE !important;
+}
+
+.text-primary {
+  color: var(--bs-primary-color) !important;
+}
+
+.text-secondary {
+  color: var(--bs-secondary-color) !important;
+}
+
+.text-light {
+  color: #EEE !important;
+}
+
+.text-dark {
+  color: var(--bs-primary-color-dark)!important;
+}
+
+.bg-primary {
+  background-color: var(--bs-primary-color) !important;
+}
+
+.bg-secondary {
+  background-color: var(--bs-secondary-color) !important;
+}
+
+.bg-light {
+  background-color: var(--bs-body-color-light)!important;
+}
+
+.bg-dark {
+  background-color: var(--bs-primary-color-dark)!important;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--bs-primary-color);
+  --bs-btn-border-color: var(--bs-primary-color);
+
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--bs-primary-color-dark);
+  --bs-btn-hover-border-color: var(--bs-primary-color-dark);
+
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: var(--bs-primary-color-dark);
+  --bs-btn-active-border-color: var(--bs-primary-color-dark);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+
